@@ -11,8 +11,8 @@ const Watch = () => {
     <div style={{ border: "2px solid purple", margin: "20px" }}>
       <h2>This is my smart watch</h2>
       <h3>My Current Steps: {steps}</h3>
-      <Display name="garmin" steps={steps}></Display>
       <button onClick={run}>Run Forest Run</button>
+      <Display name="garmin" steps={steps}></Display>
     </div>
   );
 };
